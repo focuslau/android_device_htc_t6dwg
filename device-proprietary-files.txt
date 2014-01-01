@@ -59,3 +59,9 @@ bin/dmagent
 bin/hcheck
 bin/vcsFPService
 bin/htc_ebdlogd
+
+# firmware
+etc/firmware/wlan/prima/WCNSS_cfg.dat
+etc/firmware/wlan/prima/WCNSS_qcom_cfg.ini
+etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin
+

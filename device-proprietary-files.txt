@@ -28,6 +28,8 @@ lib/libril_qsc.so
 lib/libril-qc-qmi-1.so
 lib/libril-qc-qmi-qsc.so
 lib/libril-qcril-hook-oem.so
+lib/libhtc_rilhook.so
+lib/libhtc_rilhook_qsc.so
 
 # HW
 lib/hw/consumerir.default.so

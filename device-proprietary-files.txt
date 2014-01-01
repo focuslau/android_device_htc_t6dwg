@@ -1,0 +1,61 @@
+# kernel modules
+lib/modules/ansi_cprng.ko
+lib/modules/dm-crypt.ko
+lib/modules/ecryptfs.ko
+lib/modules/eeprom_93cx6.ko
+lib/modules/evbug.ko
+lib/modules/gspca_main.ko
+lib/modules/ks8851.ko
+lib/modules/lcd.ko
+lib/modules/moc_crypto.ko
+lib/modules/moc_crypto.ko.sig.3.4.10
+lib/modules/moc_platform_mod.ko
+lib/modules/msm-buspm-dev.ko
+lib/modules/prima/prima_wlan.ko
+lib/modules/prima/cfg80211.ko
+lib/modules/qce40.ko
+lib/modules/qcedev.ko
+lib/modules/qcrypto.ko
+lib/modules/radio-iris-transport.ko
+lib/modules/reset_modem.ko
+lib/modules/scsi_wait_scan.ko
+lib/modules/spidev.ko
+lib/modules/texfat.ko
+
+# RIL
+lib/libril.so
+lib/libril_qsc.so
+lib/libril-qc-qmi-1.so
+lib/libril-qc-qmi-qsc.so
+lib/libril-qcril-hook-oem.so
+
+# HW
+lib/hw/consumerir.default.so
+
+# Display
+lib/hw/gralloc.msm8960.so
+lib/hw/copybit.msm8960.so
+lib/hw/hwcomposer.msm8960.so
+lib/libexternal.so
+lib/libgenlock.so
+lib/libmemalloc.so
+lib/liboverlay.so
+lib/libqdutils.so
+lib/libprojector.so
+
+# Audio
+lib/hw/audio.primary.msm8960.so
+
+# bin
+bin/mdm_helper
+bin/rild_qsc
+bin/pnpmgr
+bin/clockd
+bin/qseecomd
+bin/cand
+bin/readDapCert
+bin/memlock
+bin/dmagent
+bin/hcheck
+bin/vcsFPService
+bin/htc_ebdlogd

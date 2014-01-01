@@ -1,0 +1,61 @@
+# system.prop for t6dwg
+#
+
+# RIL - AOSP properties
+rild.libpath=/system/lib/libril-qc-qmi-1.so
+rild_dsda.libpath=/system/lib/libril-qc-qmi-qsc.so
+rild.libargs=-d /dev/smd0
+ro.telephony.default_cdma_sub=0
+ro.telephony.default_network=7
+ro.cdma.subscribe_on_ruim_ready=true
+ril.subscription.types=NV,RUIM
+DEVICE_PROVISIONED=1
+telephony.lteOnCdmaDevice=1
+
+# RIL: enable snapshot
+persist.radio.snapshot_enabled = 1
+persist.radio.snapshot_timer = 22
+
+#
+# System prop for sending transmit power request to RIL during WiFi hotspot on/off
+#
+ro.ril.transmitpower=true
+
+# For workaround for ro.baseband property. QCT use the property same as radio version to determine the architecture.
+# But we hard code to dsda for M7 DxG.
+ro.baseband.arch = dsda
+
+#Support manual selection with rat by qualcomm interface.
+ro.ril.scan.selection.rat = 1
+
+#
+# system props for the data modules
+#
+ro.use_data_netmgrd=true
+
+#
+# system prop for opengles version
+#
+# 196608 is decimal for 0x30000 to report version 3
+ro.opengles.version=196608
+
+#system prop for switching gps driver to qmi
+persist.gps.qmienabled=true
+
+# System property for cabl
+ro.qualcomm.cabl=0
+
+#
+# System prop for sending transmit power request to RIL during WiFi hotspot on/off
+#
+ro.ril.transmitpower=true
+
+# Carrier definitions
+ro.cdma.home.operator.numeric=46003
+ro.cdma.home.operator.alpha=Telecom
+gsm.sim.operator.alpha=Telecom
+gsm.sim.operator.numeric=46003
+gsm.sim.operator.iso-country=cn
+gsm.operator.alpha=Telecom
+gsm.operator.numeric=46003
+gsm.operator.iso-country=cn

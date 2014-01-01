@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<device name="Android">
+    <item name="none">0</item>
+    <item name="screen.on">0.005</item>
+    <item name="screen.full">0.043</item>
+    <array name="screen.brightness">
+        <value>dark</value>
+        <value>dim</value>
+        <value>medium</value>
+        <value>light</value>
+        <value>bright</value>
+    </array>
+    <array name="screen.brightness_bin">
+        <value>0.007</value>
+        <value>0.0164</value>
+        <value>0.0258</value>
+        <value>0.0352</value>
+        <value>0.045</value>
+    </array>
+    <array name="gpu.speeds">
+        <value>27000</value>
+        <value>200000</value>
+        <value>320000</value>
+        <value>400000</value>
+    </array>
+    <array name="gpu.active">
+        <value>0.0285</value>
+        <value>0.113</value>
+        <value>0.146</value>
+        <value>0.174</value>
+    </array>
+    <item name="bluetooth.active">0.007</item>
+    <item name="bluetooth.on">0.0005</item>
+    <item name="bluetooth.at">0</item>
+    <item name="wifi.on">0.001</item>
+    <item name="wifi.active">74</item>
+    <item name="wifi.scan">0.015</item>
+    <item name="dsp.audio">0.003</item>
+    <item name="dsp.video">0.011</item>
+    <item name="radio.talk">0.0267</item>
+    <item name="radio.active">0.0531</item>
+    <item name="gps.on">0.014</item>
+    <item name="battery.capacity">2300</item>
+    <item name="radio.scanning">0.023</item>
+    <array name="radio.on">
+        <value>0.0008</value>
+        <value>0.0008</value>
+    </array>
+    <array name="cpu.speeds">
+        <value>384000</value>
+        <value>486000</value>
+        <value>594000</value>
+        <value>702000</value>
+        <value>810000</value>
+        <value>918000</value>
+        <value>1026000</value>
+        <value>1134000</value>
+        <value>1242000</value>
+        <value>1350000</value>
+        <value>1458000</value>
+        <value>1566000</value>
+        <value>1674000</value>
+        <value>1728000</value>
+        <value>1890000</value>
+    </array>
+    <item name="cpu.idle">0.0007</item>
+    <array name="cpu.active">
+        <value>0.0076</value>
+        <value>0.0086</value>
+        <value>0.01</value>
+        <value>0.011</value>
+        <value>0.013</value>
+        <value>0.015</value>
+        <value>0.017</value>
+        <value>0.0233</value>
+        <value>0.0235</value>
+        <value>0.027</value>
+        <value>0.031</value>
+        <value>0.035</value>
+        <value>0.042</value>
+        <value>0.045</value>
+        <value>0.051</value>
+    </array>
+</device>

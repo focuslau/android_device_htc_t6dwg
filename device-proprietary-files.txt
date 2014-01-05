@@ -22,6 +22,22 @@ lib/modules/scsi_wait_scan.ko
 lib/modules/spidev.ko
 lib/modules/texfat.ko
 
+# Bluetooth
+bin/hci_qcomm_init
+lib/libbluedroid.so
+
+# Camera
+bin/lsc_camera
+bin/bl_camera
+bin/awb_camera
+bin/mm-qcamera-app
+bin/mm-pp-daemon
+bin/ois_camera
+bin/v4l2-qcamera-app
+
+bin/qmiproxy
+bin/qb_offmode_alarm
+
 # RIL
 lib/libril.so
 lib/libril_qsc.so
@@ -46,7 +62,7 @@ lib/libqdutils.so
 lib/libprojector.so
 
 # Audio
-lib/hw/audio.primary.msm8960.so
+lib/libAudioTrimmer.so
 
 # bin
 bin/mdm_helper

@@ -1,3 +1,4 @@
+#
 # system.prop for t6dwg
 #
 
@@ -62,3 +63,11 @@ gsm.operator.iso-country=cn
 
 # Dual SIM
 persist.multisim.config=dsds
+
+#
+# system prop for Bluetooth
+#
+ro.qualcomm.bluetooth.dun=false
+ro.qualcomm.bluetooth.ftp=true
+ro.qualcomm.bluetooth.hfp.wbs=false
+ro.qualcomm.bt.hci_transport=smd

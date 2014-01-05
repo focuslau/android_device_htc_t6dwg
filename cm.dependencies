@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "android_frameworks_opt_telephony-msim",
+    "target_path": "frameworks/opt/telephony-msim",
+    "branch": "cm-11.0"
+  }
+]

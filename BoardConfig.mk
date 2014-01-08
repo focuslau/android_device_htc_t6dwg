@@ -28,7 +28,7 @@
 -include device/htc/max-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := t6dwg,809d
+TARGET_OTA_ASSERT_DEVICE := t6dwg
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true

@@ -69,3 +69,6 @@ TARGET_PREBUILT_KERNEL := device/htc/t6dwg/kernel
 
 # Custom recovery
 TARGET_RECOVERY_INITRC := device/htc/t6dwg/recovery/init.rc
+
+# RIL
+BOARD_RIL_CLASS := ../../../device/htc/t6dwg/ril/

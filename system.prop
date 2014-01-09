@@ -22,10 +22,6 @@ persist.radio.snapshot_timer = 22
 #
 ro.ril.transmitpower=true
 
-# For workaround for ro.baseband property. QCT use the property same as radio version to determine the architecture.
-# But we hard code to dsda for M7 DxG.
-ro.baseband.arch = dsda
-
 #Support manual selection with rat by qualcomm interface.
 ro.ril.scan.selection.rat = 1
 

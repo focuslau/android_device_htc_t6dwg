@@ -28,7 +28,7 @@
 -include device/htc/max-common/BoardConfigCommon.mk
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := t6dwg
+TARGET_OTA_ASSERT_DEVICE := t6dwg,809d
 
 # Bootloader
 TARGET_NO_BOOTLOADER := true
@@ -41,15 +41,12 @@ BOARD_SYSTEMIMAGE_PARTITION_SIZE := 2550136832
 BOARD_USERDATAIMAGE_PARTITION_SIZE := 11811160064
 BOARD_FLASH_BLOCK_SIZE := 131072
 
-# RIL
-BOARD_PROVIDES_LIBRIL := true
-
 # Flags
 TARGET_GLOBAL_CFLAGS += -mfpu=neon -mfloat-abi=softfp
 TARGET_GLOBAL_CPPFLAGS += -mfpu=neon -mfloat-abi=softfp
 COMMON_GLOBAL_CFLAGS += -DREFRESH_RATE=60 -DQCOM_HARDWARE
 
-
+# Selinux
 HAVE_SELINUX := true
 
 # Architecture
@@ -60,7 +57,6 @@ TARGET_CPU_VARIANT := krait
 TARGET_CPU_ABI := armeabi-v7a
 TARGET_CPU_ABI2 := armeabi
 TARGET_CPU_SMP := true
-TARGET_BOOTLOADER_BOARD_NAME := t6dwg
 
 # Kernel
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=t6dwg user_debug=31

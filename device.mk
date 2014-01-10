@@ -20,10 +20,6 @@ endif
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel
 
-# apn config
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/apns-conf.xml:/system/etc/apns-conf.xml
-
 ## adb + root
 ADDITIONAL_DEFAULT_PROPERTIES += \
         ro.secure=0 \

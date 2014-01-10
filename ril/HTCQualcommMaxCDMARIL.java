@@ -20,6 +20,7 @@ import static com.android.internal.telephony.RILConstants.*;
 
 import android.content.Context;
 import android.os.Parcel;
+import android.os.Message;
 import android.provider.Settings;
 import android.telephony.CellInfo;
 

@@ -26,12 +26,6 @@ lib/modules/texfat.ko
 bin/hci_qcomm_init
 lib/libbluedroid.so
 
-# GPS
-lib/libgps.utils.so
-lib/libgpsencryption.so
-lib/libloc_adapter.so
-lib/libloc_api_v02.so
-
 # Camera
 bin/lsc_camera
 bin/bl_camera
@@ -66,9 +60,12 @@ lib/libmemalloc.so
 lib/liboverlay.so
 lib/libqdutils.so
 lib/libprojector.so
+lib/libqservice.so
 
-# Audio
-lib/libAudioTrimmer.so
+# GPS
+lib/hw/gps.default.so
+lib/libloc_eng.so
+lib/libloc_adapter.so
 
 # bin
 bin/mdm_helper

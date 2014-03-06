@@ -54,9 +54,6 @@ gsm.operator.alpha=Telecom
 gsm.operator.numeric=46003
 gsm.operator.iso-country=cn
 
-# Dual SIM
-persist.multisim.config=dsds
-
 #
 # system prop for Bluetooth
 #

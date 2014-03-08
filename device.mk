@@ -31,6 +31,6 @@ ADDITIONAL_DEFAULT_PROPERTIES += \
 PRODUCT_PROPERTY_OVERRIDES += \
         ro.telephony.ril_class=HTCQualcommMaxCDMARIL \
         ro.telephony.default_cdma_sub=0 \
-        persist.radio.multisim.config=dsds
+        persist.radio.multisim.config=dsda
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=8
